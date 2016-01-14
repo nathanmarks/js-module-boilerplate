@@ -7,6 +7,7 @@
     "clean": "npm run clean:coverage",
     "clean:coverage": "rimraf coverage",
     "coverage": "npm run clean:coverage && babel-node node_modules/.bin/isparta cover --report lcov --report text --report html test/index.js",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "dev": "nodemon -w lib -w test --exec \"npm run -s lint && npm run -s test:dev\"",
     "lint": "eslint lib",
     "prepublish": "npm run clean",
