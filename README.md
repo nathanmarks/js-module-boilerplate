@@ -1,4 +1,2 @@
 # JS Module Boilerplate
-[![Circle CI](https://circleci.com/gh/nathanmarks/js-module-boilerplate.svg?style=svg)](https://circleci.com/gh/nathanmarks/js-module-boilerplate) [![Coverage Status](https://coveralls.io/repos/nathanmarks/js-module-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/nathanmarks/js-module-boilerplate?branch=master)
-
-
+[![Build Status](https://img.shields.io/circleci/project/nathanmarks/js-module-boilerplate/master.svg?style=flat-square)](https://circleci.com/gh/nathanmarks/js-module-boilerplate) [![Coverage Status](https://img.shields.io/coveralls/nathanmarks/js-module-boilerplate/master.svg?style=flat-square)](https://coveralls.io/github/nathanmarks/js-module-boilerplate?branch=master)
