@@ -4,6 +4,14 @@
 [![npm](https://img.shields.io/npm/v/js-module-boilerplate.svg?style=flat-square)]()
 [![Dependency Status](https://david-dm.org/nathanmarks/js-module-boilerplate.svg?style=flat-square)](https://david-dm.org/nathanmarks/js-module-boilerplate)
 
+#### Features
+
+- ES6/7 via Babel 6
+- Documentation via jsdoc
+- eslint
+- testing via tape/blue-tape
+- coverage using isparta
+
 #### Installation
 
 ```bash
