@@ -22,3 +22,19 @@ $ npm install js-module-boilerplate --save
 
 # API Reference
 
+<a name="module_js-module-boilerplate"></a>
+## js-module-boilerplate
+The core module of this library
+
+
+-----
+
+<a name="module_js-module-boilerplate.info"></a>
+### js-module-boilerplate.info() ⇒ <code>string</code>
+Returns the module name
+
+**Kind**: static method of <code>[js-module-boilerplate](#module_js-module-boilerplate)</code>
+**Returns**: <code>string</code> - module name
+
+-----
+
