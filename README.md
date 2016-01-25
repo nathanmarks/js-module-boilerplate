@@ -27,14 +27,37 @@ $ npm install js-module-boilerplate --save
 The core module of this library
 
 
+* [js-module-boilerplate](#module_js-module-boilerplate)
+    * [exports.info()](#exp_module_js-module-boilerplate.info--exports.info) ⇒ <code>string</code> ⏏
+    * [module.exports()](#exp_module_js-module-boilerplate--module.exports) ⇒ <code>Object</code> ⏏
+        * [~jsModule](#module_js-module-boilerplate--module.exports..jsModule) : <code>Object</code>
+
+
 -----
 
-<a name="module_js-module-boilerplate.info"></a>
-### js-module-boilerplate.info() ⇒ <code>string</code>
+<a name="exp_module_js-module-boilerplate.info--exports.info"></a>
+### exports.info() ⇒ <code>string</code> ⏏
 Returns the module name
 
-**Kind**: static method of <code>[js-module-boilerplate](#module_js-module-boilerplate)</code>
+**Kind**: Exported function
 **Returns**: <code>string</code> - module name
+
+-----
+
+<a name="exp_module_js-module-boilerplate--module.exports"></a>
+### module.exports() ⇒ <code>Object</code> ⏏
+Create an instance of [jsModule](#module_js-module-boilerplate--module.exports..jsModule)
+
+**Kind**: Exported function
+**Returns**: <code>Object</code> - the core library object
+
+-----
+
+<a name="module_js-module-boilerplate--module.exports..jsModule"></a>
+#### module.exports~jsModule : <code>Object</code>
+The core module object created by the factory.
+
+**Kind**: inner constant of <code>[module.exports](#exp_module_js-module-boilerplate--module.exports)</code>
 
 -----
 

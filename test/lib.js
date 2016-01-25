@@ -1,16 +1,16 @@
-import Test from 'tape';
+import Test from 'blue-tape';
 import ModuleBoilerplate from 'lib/index.js';
 
 Test('Module', t => {
 
-  t.plan(2);
-
   t.ok(ModuleBoilerplate, 'Should exist');
 
-  t.equals(
+  t.looseEquals(
     ModuleBoilerplate(),
-    'JS Module Boilerplate',
-    'Should be a function that returns the module name'
+    {},
+    'Should be a function that returns the module object'
   );
+
+  t.end();
 
 });
