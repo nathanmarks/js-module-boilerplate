@@ -7,7 +7,7 @@
 #### Features
 
 - ES6/7 via Babel 6
-- Documentation via jsdoc
+- Documentation via jsdoc (WIP)
 - eslint
 - testing via tape/blue-tape
 - coverage using isparta
@@ -29,8 +29,9 @@ The core module of this library
 
 * [js-module-boilerplate](#module_js-module-boilerplate)
     * [exports.info()](#exp_module_js-module-boilerplate.info--exports.info) ⇒ <code>string</code> ⏏
-    * [module.exports()](#exp_module_js-module-boilerplate--module.exports) ⇒ <code>Object</code> ⏏
-        * [~jsModule](#module_js-module-boilerplate--module.exports..jsModule) : <code>Object</code>
+    * [exports.default()](#exp_module_js-module-boilerplate.default--exports.default) ⇒ <code>Object</code> ⏏
+    * _inner_
+        * [~jsModule](#module_js-module-boilerplate..jsModule) : <code>Object</code>
 
 
 -----
@@ -44,20 +45,20 @@ Returns the module name
 
 -----
 
-<a name="exp_module_js-module-boilerplate--module.exports"></a>
-### module.exports() ⇒ <code>Object</code> ⏏
-Create an instance of [jsModule](#module_js-module-boilerplate--module.exports..jsModule)
+<a name="exp_module_js-module-boilerplate.default--exports.default"></a>
+### exports.default() ⇒ <code>Object</code> ⏏
+Create an instance of [jsModule](#module_js-module-boilerplate..jsModule)
 
 **Kind**: Exported function
 **Returns**: <code>Object</code> - the core library object
 
 -----
 
-<a name="module_js-module-boilerplate--module.exports..jsModule"></a>
-#### module.exports~jsModule : <code>Object</code>
+<a name="module_js-module-boilerplate..jsModule"></a>
+### js-module-boilerplate~jsModule : <code>Object</code>
 The core module object created by the factory.
 
-**Kind**: inner constant of <code>[module.exports](#exp_module_js-module-boilerplate--module.exports)</code>
+**Kind**: inner constant of <code>[js-module-boilerplate](#module_js-module-boilerplate)</code>
 
 -----
 
