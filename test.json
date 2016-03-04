@@ -1,0 +1,85 @@
+[
+  {
+    "id": "module:js-module-boilerplate",
+    "longname": "module:js-module-boilerplate",
+    "name": "js-module-boilerplate",
+    "kind": "module",
+    "description": "The core module of this library",
+    "meta": {
+      "lineno": 1,
+      "filename": "index.js",
+      "path": "/Users/PoweredbySearch/Development/repos/nathanmarks/js-module-boilerplate/lib"
+    },
+    "order": 0
+  },
+  {
+    "id": "module:js-module-boilerplate.info--exports.info",
+    "longname": "module:js-module-boilerplate.info",
+    "name": "exports.info",
+    "kind": "function",
+    "isExported": true,
+    "description": "Returns the module name",
+    "memberof": "module:js-module-boilerplate",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "module name"
+      }
+    ],
+    "meta": {
+      "lineno": 12,
+      "filename": "index.js",
+      "path": "/Users/PoweredbySearch/Development/repos/nathanmarks/js-module-boilerplate/lib"
+    },
+    "order": 1
+  },
+  {
+    "id": "module:js-module-boilerplate.default--exports.default",
+    "longname": "module:js-module-boilerplate.default",
+    "name": "exports.default",
+    "kind": "function",
+    "isExported": true,
+    "description": "Create an instance of {@link module:js-module-boilerplate~jsModule}",
+    "memberof": "module:js-module-boilerplate",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "the core library object"
+      }
+    ],
+    "meta": {
+      "lineno": 21,
+      "filename": "index.js",
+      "path": "/Users/PoweredbySearch/Development/repos/nathanmarks/js-module-boilerplate/lib"
+    },
+    "order": 2
+  },
+  {
+    "id": "module:js-module-boilerplate~jsModule",
+    "longname": "module:js-module-boilerplate~jsModule",
+    "name": "jsModule",
+    "scope": "inner",
+    "kind": "constant",
+    "description": "The core module object created by the factory.",
+    "memberof": "module:js-module-boilerplate",
+    "type": {
+      "names": [
+        "Object"
+      ]
+    },
+    "meta": {
+      "lineno": 30,
+      "filename": "index.js",
+      "path": "/Users/PoweredbySearch/Development/repos/nathanmarks/js-module-boilerplate/lib"
+    },
+    "order": 3
+  }
+]

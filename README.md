@@ -28,8 +28,9 @@ The core module of this library
 
 
 * [js-module-boilerplate](#module_js-module-boilerplate)
-    * [exports.info()](#exp_module_js-module-boilerplate.info--exports.info) ⇒ <code>string</code> ⏏
-    * [exports.default()](#exp_module_js-module-boilerplate.default--exports.default) ⇒ <code>Object</code> ⏏
+    * _exports_
+        * [⏏ exports.info()](#exp_module_js-module-boilerplate.info--exports.info) ⇒ <code>string</code>
+        * [⏏ exports.default()](#exp_module_js-module-boilerplate.default--exports.default) ⇒ <code>Object</code>
     * _inner_
         * [~jsModule](#module_js-module-boilerplate..jsModule) : <code>Object</code>
 
@@ -37,19 +38,18 @@ The core module of this library
 -----
 
 <a name="exp_module_js-module-boilerplate.info--exports.info"></a>
-### exports.info() ⇒ <code>string</code> ⏏
+### js-module-boilerplate ⏏ exports.info() ⇒ <code>string</code>
 Returns the module name
 
-**Kind**: Exported function
-**Returns**: <code>string</code> - module name
+**Kind**: exports method of <code>[js-module-boilerplate](#module_js-module-boilerplate)</code>
 
 -----
 
 <a name="exp_module_js-module-boilerplate.default--exports.default"></a>
-### exports.default() ⇒ <code>Object</code> ⏏
+### js-module-boilerplate ⏏ exports.default() ⇒ <code>Object</code>
 Create an instance of [jsModule](#module_js-module-boilerplate..jsModule)
 
-**Kind**: Exported function
+**Kind**: exports method of <code>[js-module-boilerplate](#module_js-module-boilerplate)</code>
 **Returns**: <code>Object</code> - the core library object
 
 -----
