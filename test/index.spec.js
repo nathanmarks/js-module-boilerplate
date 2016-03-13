@@ -1,5 +1,5 @@
 import Test from 'blue-tape';
-import ModuleBoilerplate from 'lib/index.js';
+import ModuleBoilerplate from 'src/index.js';
 
 Test('Module', t => {
 
