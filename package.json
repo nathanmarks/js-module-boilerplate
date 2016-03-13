@@ -10,7 +10,6 @@
     "clean:build": "rimraf build",
     "clean:coverage": "rimraf coverage",
     "coverage": "npm run clean:coverage && babel-node node_modules/.bin/isparta cover --report lcov --report text-summary --report html test/index.js",
-    "dev": "nodemon --verbose -w src -w test --exec \"npm run -s lint && npm run -s test:dev\"",
     "docs": "jsdoc2md --conf docs/conf.json --src \"src/**/*.js\" -t docs/README.md.hbs -d 2 --partial \"./docs/partials/**/*.hbs\" --separators  -l JavaScript > README.md",
     "lint": "eslint src && echo \"eslint: no errors\"",
     "prepublish": "in-publish && npm run build || not-in-publish",
